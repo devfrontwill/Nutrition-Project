@@ -63,10 +63,10 @@ for (var i = 0; i < pacientes.length; i++) {
 
         var tabela = document.querySelector("#tabela-pacientes");
 
-        tabela.appendChild(pacienteTr);
-        
+        tabela.appendChild(pacienteTr);        
 
     })
+    
 
 
 
