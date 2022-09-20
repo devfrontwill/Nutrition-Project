@@ -16,8 +16,12 @@
 			</div>
 		</header>
 		<main>
-			<section class="container">
+			<section class="container"><br><br>
 				<h2>Meus pacientes</h2>
+
+				<label for="filtrar-tabela">Encontrar paciente:</label>
+    			<input type="search" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
+
 				<table>
 					<thead>
 						<tr>
@@ -38,7 +42,7 @@
 						</tr>
 
 						<tr class="paciente" >
-							<td class="info-nome">João</td>
+							<td class="info-nome">Joao</td>
 							<td class="info-peso">80</td>
 							<td class="info-altura">1.72</td>
 							<td class="info-gordura">40</td>
@@ -100,5 +104,6 @@
 		<script src="./js/calc-imc.js"></script>
 		<script src="./js/form.js"></script>
 		<script src="./js/remover-paciente.js" ></script>
+		<script src="./js/filter.js" ></script>
 	</body>
 </html>
