@@ -3,6 +3,8 @@
  }
 
 body{
+	display: flex;
+	flex-direction: column;
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
