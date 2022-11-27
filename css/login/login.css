@@ -1,15 +1,17 @@
 body {
     background-image: ;
+    
 }
 
 body{	   
-	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: 'Courgette', cursive;
 	font-size: 22px;
     padding: 2rem;
     background: url('../../img/img-login-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
-    height: 100vh;    
+    height: 80vh;
+    
 }
 
 h1, h3 {
@@ -28,4 +30,13 @@ h1, h3 {
     align-items: center;
     justify-content: center;
     margin: 1rem;
+     
+}
+
+.login-input{
+    margin-top: 5rem;
+}
+
+.input {
+    width: 120pxpx;
 }
