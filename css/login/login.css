@@ -38,5 +38,7 @@ h1, h3 {
 }
 
 .input {
-    width: 120pxpx;
+    width: 11rem;
+    height: 1.525rem;
+    margin: 0.175rem;
 }
